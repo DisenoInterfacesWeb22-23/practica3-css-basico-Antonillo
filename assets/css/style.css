@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
  
 
-*, *::before, *::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,6 +41,10 @@ h3 {
     font-family: 'Ubuntu', Normal;
     color: #747474;
     font-size: 1.2em;
+    margin-top: .625em;
+    margin-right: 0;
+    margin-bottom: .938em;
+    margin-left: 0;
 
 }
 h4 {
@@ -49,11 +53,19 @@ h4 {
     color: #dddddd;
     font-size: 1.2em;
     font-style: normal;
+    margin-top: .625em;
+    margin-right: 0;
+    margin-bottom: .938em;
+    margin-left: 0;
 }
 
 h5 {
     font-family: "Open Sans", Verdana, Geneva, Sans-Serif, Normal;
     font-size: 1em;
+    margin-top: .625em;
+    margin-right: 0;
+    margin-bottom: .938em;
+    margin-left: 0;
 }
 
 body {
@@ -80,7 +92,7 @@ header {
   transform: translateY(-50%);
 }
 
-a:visited, a:link, a:hover, a:active {
+a, a:visited, a:link, a:hover, a:active {
     text-decoration: none;
 }
 
@@ -118,16 +130,21 @@ nav > ul > li > a:hover {
     color: #ffae00;
 }
 
- ul {
+ ul, ol {
     color:#198fd9;
+ }
+
+ li > span {
+    color:#666666;
  }
 
 footer {
     color:#ffffff !important;
     background-color: #152b40;
-    padding-top: 1em;
+    /* padding-top: 1em; */
     padding-bottom: 1.5em;
 }
+
 footer > section > span {
     margin-top: 1.1em;
 }
@@ -160,10 +177,6 @@ footer > section > span > a {
     display: flex;
     width: 50%;
     justify-content: flex-end;
-}
-
-a {
-    text-decoration: none;
 }
 
 aside {
@@ -228,7 +241,7 @@ table, td, tr , th {
 
 .dsp-flex {
     display: flex;
-    margin-top: 1.1em;
+    /* margin-top: 1.1em; */
 }
 
 p {
@@ -278,16 +291,15 @@ input[type=text], input[type=number], input[type=email] {
     margin-bottom: .65em;
     padding: 1em;
 }
-mark {
-    border: .1em solid #ffae00;
-}
+
 input:focus,
 input:active,
 input:focus-visible,
 input:hover, textarea:hover {
-    color: #ffffff;
+    color: #ffffff ;
     border: .1em solid #ffae00;
-    background-color: #55acee;
+    background: rgb(55,133,198);
+        background: linear-gradient(45deg, rgba(55,133,198,1) 66%, rgba(0,166,255,1) 76%);
 }
 
 textarea {

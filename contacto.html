@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academia de estudios ESO, bachiller, formación profesional y universiartios">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/logo/site.webmanifest">
+    <link rel="mask-icon" href="./assets/images/logo/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Academia DIW</title>
+</head>
+<body>
+    <header><a href="./index.html"><img src="./assets/images/logo/logo.jpg" alt="logo"></a><h1 class="vertical-align">Academia&nbsp;DIW</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./servicios.html">SERVICIOS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-top">
+        <h1>¿HABLAMOS?</h1>
+        <p class="centered">Estamos al otro lado, si tienes cualquier duda, no dudes en ponerte en contacto con nosotros, estaremos encantados de atenderte</p>
+        <form action="" method="post">
+            <div>
+                <label for="nombre">Nombre (requerido) *</label>
+                <input type="text" name="nombre" placeholder="Jhon" id="nombre" maxlength="30" size="32" pattern="^[a-zA-Z0-9_.-]*$" autofocus required>
+            </div>
+            <label for="email">Correo electrónico (requerido) *</label>
+            <input type="email" name="email" placeholder="email@ejemplo.com" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
+            <label for="edad">Edad (requerido) *</label>
+            <input type="number" name="edad" id="edad" placeholder="18-99" min="18" max="99" size="2" required>
+            <label for="telefono">Teléfono (requerido) *</label>
+            <input type="text" name="telefono" id="telefono" placeholder="965123456" maxlength="9" size="9" required>
+            <label for="consulta">Consulta (requerido) *</label>
+            <textarea name="consuulta" placeholder="Su conssulta aquí" id="consulta" cols="30" rows="10" required></textarea>
+            <fieldset>
+                <input type="checkbox" name="checkbox" value="Acepta nuestra política de provacidad y cookies" id="checkbox" required>
+                <label class="label-checkbox" for="checkbox">Acepta nuestra política de privacidad y cookies</label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section>
+        <h2>Contacta con nosotros</h2>
+        <p>Calle San Juan Bautista 7, Bajo</p>
+        <p>Teléfono de contacto: <a href="tel:965 123 456">965 123 456</a></p>
+    </section>
+    <footer>
+        <section class="dsp-flex">
+            <h2 class="white">&copy; 2022 Academia DIW</h2>
+            <span><a class="poli-priva" href="./privacidad.html">Politica de privacidad</a>&nbsp; y&nbsp;<a class="poli-cookies" href="./cookies.html">cookies</a></span>
+        </section>
+        <section class="dsp-flex">
+            <div class="redes-sociales">
+                <div>
+                    <h4>REDES SOCIALES</h4>
+                    <a href="#" title="WhatsApp"><i class="fa fa-whatsapp"></i></a>
+                    <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="mapa">
+                <img  src="./assets/images/mapa.png" width="200" alt="mapa">
+            </div>
+            <!-- <a href="#" title="WhatsApp"><img src="./assets/images/WhatsApp.svg" width="40" alt="WhatsApp"></a>
+            <a href="#" title="Twitter"><img src="./assets/images/Twitter.svg" width="40" alt="Twitter"></a>
+            <a href="#" title="Facebook"><img src="./assets/images/Facebook.svg" width="40" alt="Facebook"></a> -->
+        </section>
+    </footer>
+</body>
+</html>

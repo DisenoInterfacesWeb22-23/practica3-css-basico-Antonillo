@@ -302,6 +302,10 @@ input:hover, textarea:hover {
         background: linear-gradient(45deg, rgba(55,133,198,1) 66%, rgba(0,166,255,1) 76%);
 }
 
+input:invalid, textarea:invalid {
+    border: .1em solid  #C70039;
+}
+
 textarea {
     resize: none;
     font-size: 16px;

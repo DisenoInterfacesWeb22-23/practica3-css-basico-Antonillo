@@ -299,7 +299,7 @@ input:hover, textarea:hover {
     color: #ffffff ;
     border: .1em solid #ffae00;
     background: rgb(55,133,198);
-        background: linear-gradient(45deg, rgba(55,133,198,1) 66%, rgba(0,166,255,1) 76%);
+    background: linear-gradient(45deg, rgba(55,133,198,1) 66%, rgba(0,166,255,1) 76%);
 }
 
 textarea {
